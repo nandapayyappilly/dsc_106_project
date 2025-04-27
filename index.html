@@ -148,26 +148,33 @@
         Persuasive or Deceptive Visualization?
       </h1>
 
-      <p><strong>Your Name</strong> — <em>Your UCSD Email Address</em></p>
+      <p><strong>Nanda Payyappilly</strong> — <em>npayyappilly@ucsd.edu</em></p>
     </header>
 
     <main>
-      <h2>Proposition: [STATE PROPOSITION]</h2>
+      <h2>Proposition: Older NYPD officers, specifically those aged 50–59, have higher rates of substantiated civilian misconduct allegations compared to younger officers, based on ProPublica's data from 1985 to 2020.</h2>
 
       <section>
         <h3>FOR the Proposition</h3>
 
+        
+        
         <figure>
-          <img src="IMAGE_FILENAME" alt="" />
-          <figcaption>BRIEF CAPTION HERE.</figcaption>
+          <iframe
+          src="support_vis_latest.html"
+          width="850"
+          height="500"
+          frameborder="0"
+          ></iframe>
+          <figcaption>Substantiation rates across officer age groups (1985–2020)</figcaption>
         </figure>
 
-        <p>Design Decisions and Rationale:</p>
+        <p><b>Design Decisions and Rationale:</b></p>
 
         <ul>
-          <li>RATIONALE_1</li>
-          <li>RATIONALE_2</li>
-          <li>RATIONALE_3</li>
+          <li><b>Color Gradient Reversal (dark to bright)</b>: Focuses viewer attention on the oldest group's high substantation rate, enhancing contrast between groups.</li>
+          <li><b>Compressed Y-Axis Range</b>: Magnifies small differences in substantiation rates between age groups, making the older group's higher rate seem more significant.</li>
+          <li><b>Black Circle Outlines</b>: Gives every point a sharp, clear boundary, making it pop out and easier for viewers to focus on individual age groups.</li>
         </ul>
       </section>
 
@@ -175,23 +182,32 @@
         <h3>AGAINST the Proposition</h3>
 
         <figure>
-          <img src="IMAGE_FILENAME" alt="" />
-          <figcaption>BRIEF CAPTION HERE.</figcaption>
+          <iframe
+          src="reject_vis.html"
+          width="850"
+          height="500"
+          frameborder="0"
+          ></iframe>
+          <figcaption>Substantiation rates by NYPD officer age group in relation to complaint volume (1985–2020)</figcaption>
         </figure>
 
-        <p>Design Decisions and Rationale:</p>
+        <p><b>Design Decisions and Rationale:</b></p>
 
         <ul>
-          <li>RATIONALE_1</li>
-          <li>RATIONALE_2</li>
-          <li>RATIONALE_3</li>
+          <li><b>Added Data Labels Above Points</b>: Ensures that the audience sees the exact substantiation percentages, which look closer together than what the chart suggests.</li>
+          <li><b>Color and Size Coupling</b>: Complaint volume is encoded by both color intensity and size, drawing attention away from pure substantiation rates.</li>
+          <li><b>Added Red Annotation Box around the 50–59 age group's data point</b>: Intentionally draws the audience’s attention to the main takeaway which is that although substantiation rates appear higher for older officers, the extremely low complaint count undermines the reliability of this trend.</li>
         </ul>
       </section>
 
       <section>
         <h2>Final Reflection</h2>
 
-        <p>[WRITE FINAL REFLECTION PARAGRAPHS HERE.]</p>
+        <p>
+          &emsp; To design these two visualizations, I made design choices to both emphasize key findings and guide audience perception. For the first plot, a scatter plot <b>supporting the proposition</b> that older NYPD officers (ages 50–59) have higher substantiation rates, <b>a reversed dark-to-bright plasma color gradient</b> was used to draw attention to the oldest officer group, making their higher rate visually striking. <b>Black circle outlines</b> around each data point enhanced clarity and ensured that each age group's result remained distinct and easy to interpret. A <b>compressed y-axis</b> (ranging only between 0.22 and 0.37) was intentionally applied to magnify relatively small differences in substantiation rates, creating a more dramatic visual separation between age groups.<br><br>
+          &emsp; In the second plot, which <b>refutes the proposition</b>, I used a scatter plot again but added <b>circle size and color</b> to reflect <b>complaint volume</b>. The <b>side-by-side visual presentation</b> of complaint volume and substantiation rate was a strategic design choice that, while informative, carries a risk of <b>misleading viewers</b> into perceiving a direct causal relationship between the number of complaints and the substantiation outcome. Additionally, the <b>y-axis was compressed</b> to mirror the first plot, ensuring easier visual comparison between the two graphs and reinforcing how incorporating complaint volume can substantially change the narrative about misconduct patterns across officer age groups.<br><br>
+          &emsp; While these design decisions enhance the <b>storytelling power</b> of the visuals, they also raise important <b>ethical concerns</b>. <b>Magnifying differences through axis compression</b> and visually tying together distinct metrics could unintentionally exaggerate or oversimplify the patterns shown. Ethical data visualization requires acknowledging that even subtle design tweaks, like color, sizing, and axis choices, can have a powerful impacts on audience interpretation. So, <b>transparency</b> about these choices is crucial to <b>avoid misleading viewers</b> while still achieving a visually compelling analysis.
+        </p>
       </section>
     </main>
   </body>
